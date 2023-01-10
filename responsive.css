@@ -1,0 +1,30 @@
+@media screen and (min-width:200px) and (max-width:1014px) {
+    
+    .menu-list a{
+        font-size: 1.3em;
+        padding: 15px 10px;
+    }
+    .menu-list,.menu-content,.menu p{
+        width: 95%;
+        font-size: 1.8em;
+        box-sizing: border-box;
+    }
+    .about,#about-second,.open-close-hours,.contact{
+        width: 95%;
+    
+    }
+    .contact p{
+        font-size: 1.5em;
+    }
+    #contact-heading{
+        font-size: 2em;
+    }
+    .time ul li{
+        font-size: 1.5em;
+    }
+}
+@media screen and (max-width:600px){
+    .navbar{
+        display: none;
+    }
+}
