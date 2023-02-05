@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,56 +11,110 @@
     <link rel="stylesheet" href="responsive.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC">
 </head>
+
 <body>
     <div class="navbar">
         <a href="#">HOME</a>
-        <a href="#">MENU</a>
-        <a href="#">ABOUT</a>
-        <a href="#">CONTACT</a>
+        <a href="#menuSection">MENU</a>
+        <a href="#aboutSection">ABOUT</a>
+        <a href="#contactSection">CONTACT</a>
     </div>
     <div class="bg">
         <h1>THIN</h1>
         <h1>CRUST PIZZA</h1>
-        <button id="btn-bg">LET ME SEE THE MENU</button>
+        <a href="#menuSection" id="btn-bg">LET ME SEE THE MENU</a>
         <p id="bg-p">OPEN FROM 10 AM TO 12 PM</p>
     </div>
-    <div class="menu">
+    <div class="menu" id="menuSection">
         <h1>THE MENU</h1>
         <div class="menu-list">
-            <a href="#">PIZZA</a>
-            <a href="#">SALADS</a>
-            <a href="#">STARTER</a>
+            <button onclick="show1()">PIZZA</button>
+            <button onclick="show2()">SALADS</button>
+            <button onclick="show3()">STARTER</button>
         </div>
-        <div class="menu-content">
-            <h3>Today's Soup <span>Seasonal</span></h3>
-             <h3><span>$5.50</span></h3>
+        <section id="menuBox1">
+            <div class="menu-content">
+                <h3>Margherita</h3>
+                <h3><span>$8.50</span></h3>
+            </div>
+            <p>Fresh tomatoes, fresh mozzarella, fresh basil</p>
+            <div class="menu-content">
+                <h3>Formaggio</h3>
+                <h3><span id="h3-right">$10.50</span></h3>
+            </div>
+            <p>Four cheeses (mozzarella, parmesan, pecorino, jarlsberg)</p>
+            <div class="menu-content">
+                <h3>Chicken</h3>
+                <h3><span>$11.50</span></h3>
+            </div>
+            <p>Fresh tomatoes, mozzarella, chicken, onions</p>
+            <div class="menu-content">
+                <h3>Pineapple'o'clock</h3>
+                <h3><span>$6.60</span></h3>
+            </div>
+            <p>Fresh tomatoes, mozzarella, fresh pineapple, bacon, fresh basil </p>
+        </section>
+        <section id="menuBox2">
+            <div class="menu-content">
+                <h3>Lasagna <span>Popular</span></h3>
+                <h3><span>$4.50</span></h3>
+            </div>
+            <p>Special sauce, mozzarella, parmesan, ground beef</p>
+            <div class="menu-content">
+                <h3>Ravioli </h3>
+                <h3><span id="h3-right">$14.50</span></h3>
+            </div>
+            <p>Ravioli filled with cheese</p>
+            <div class="menu-content">
+                <h3>Spaghetti Classica</h3>
+                <h3><span>$5.50</span></h3>
+            </div>
+            <p>Fresh tomatoes, onions, ground beef</p>
+            <div class="menu-content">
+                <h3>Seafood pasta</h3>
+                <h3><span>$16.60</span></h3>
+            </div>
+            <p>Salmon, shrimp, lobster, garlic</p>
+        </section>
+        <section id="menuBox3">
+            <div class="menu-content">
+                <h3>Today's Soup <span>Seasonal</span></h3>
+                <h3><span>--</span></h3>
             </div>
             <p>Ask the waiter</p>
-        <div class="menu-content">
-            <h3>Today's Soup <span>Seasonal</span></h3> <h3><span id="h3-right">$5.50</span></h3>
-        </div>
-        <p>Ask the waiter</p>
-        <div class="menu-content">
-            <h3>Today's Soup <span>Seasonal</span></h3> <h3><span>$5.50</span></h3>
-        </div>
-        <p>Ask the waiter</p>
-        <div class="menu-content">
-            <h3>Today's Soup <span>Seasonal</span></h3> <h3><span>$5.50</span></h3>
-        </div>
-        <p>Ask the waiter</p>
+            <div class="menu-content">
+                <h3>Bruschetta</h3>
+                <h3><span id="h3-right">$5.50</span></h3>
+            </div>
+            <p>Bread with pesto, tomatoes, onion, garlic</p>
+            <div class="menu-content">
+                <h3>Garlic bread</h3>
+                <h3><span>$12.50</span></h3>
+            </div>
+            <p>Grilled ciabatta, garlic butter, onions</p>
+            <div class="menu-content">
+                <h3>Tomozzarella</h3>
+                <h3><span>$20.60</span></h3>
+            </div>
+            <p>Tomatoes and mozzarella</p>
+        </section>
     </div>
-    <div class="about-container">
-        
+    <div class="about-container" id="aboutSection">
+
         <div class="about">
             <h1>ABOUT</h1>
-            <p id="about-first">The Pizza Restaurant was founded in blabla by Mr. Italiano in lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <p id="about-first">The Pizza Restaurant was founded in blabla by Mr. Italiano in lorem ipsum dolor sit
+                amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
         </div>
         <div id="about-second">
-            <div> <p>The Chef? Mr. Italiano himself</p>  <br>
+            <div>
+                <p>The Chef? Mr. Italiano himself</p> <br>
                 <p>The Chef? Mr. Italiano himself</p>
-            </div> 
+            </div>
             <img src="/project 23/img/first.jpg" alt="">
-           
+
         </div>
         <div class="open-close-hours">
             <img src="/project 23/img/first.jpg" alt="">
@@ -78,24 +133,30 @@
             </div>
         </div>
     </div>
+    <section id="contactSection">
         <div id="place">
-            <img src="/project 23/img/place.jpg" alt="">
+            <img src="https://cdn.pixabay.com/photo/2015/01/23/12/43/gateway-of-india-609076_960_720.jpg" alt="">
         </div>
         <div class="contact-container">
-        <div class="contact">
-            <h1>Contact</h1>
-        <p>Find us at some address at some place or call us at 05050515-122330</p>
-    <p><span>FY!</span> We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste.</p>
-    <h2 id="contact-heading">Reserve a table, ask for today's special or just send us a message:</h2>
-        <input type="text" placeholder="Name">
-        <input type="text" placeholder="How many people">
-        <input type="text" placeholder="Date">
-        <input type="text" placeholder="Message/special requirement">
-        <button id="contact-btn">Send Message</button>
-    </div>
-</div>
+            <div class="contact">
+                <h1>Contact</h1>
+                <p>Find us at some address at some place or call us at 05050515-122330</p>
+                <p><span>FY!</span> We offer full-service catering for any event, large or small. We understand your
+                    needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste.
+                </p>
+                <h2 id="contact-heading">Reserve a table, ask for today's special or just send us a message:</h2>
+                <input type="text" placeholder="Name">
+                <input type="text" placeholder="How many people">
+                <input type="text" placeholder="Date">
+                <input type="text" placeholder="Message/special requirement">
+                <button id="contact-btn">Send Message</button>
+            </div>
+        </div>
+    </section>
     <footer>
         PoweredBYKumar
     </footer>
+    <script src="script.js"></script>
 </body>
+
 </html>

@@ -1,20 +1,23 @@
-.about-container{
+.about-container {
     color: white;
     padding: 40px 0px;
-    background-color:  #f44336;
+    background-color: #f44336;
 }
-.about{
+
+.about {
     font-size: 1.8em;
     width: 900px;
     text-transform: uppercase;
     margin: 0px auto;
 }
-.about h1{
+
+.about h1 {
     padding: 25px 0px;
     font-size: 2em;
     text-align: center;
 }
-#about-second{
+
+#about-second {
     display: flex;
     flex-wrap: wrap;
     font-size: 1.8em;
@@ -22,74 +25,90 @@
     width: 900px;
     margin: 10px auto;
 }
-#about-second p{
+
+#about-second p {
     width: 100%;
     font-size: 1em;
     text-transform: uppercase;
     padding: 15px 0px;
 }
-#about-second img{
+
+#about-second img {
     width: 35%;
     border-radius: 50%;
 }
+
 .open-close-hours {
     width: 900px;
     margin: 0px auto;
 }
-.open-close-hours img{
+
+.open-close-hours img {
     width: 100%;
-    margin: 15px 0px;    
+    margin: 15px 0px;
 }
-.open-close-hours h3{
+
+.open-close-hours h3 {
     font-size: 3em;
     padding: 10px 0px;
 }
-.time{
+
+.time {
     display: flex;
 }
-.time ul{
+
+.time ul {
     width: 50%;
     list-style-type: none;
 }
-.time ul li{
+
+.time ul li {
     text-transform: uppercase;
     padding: 10px 0px;
     font-size: 2em;
 }
-#place img{
+
+#place img {
     width: 100%;
     size: cover;
     margin-bottom: -7px;
 }
-.contact-container{
-    background-color:#607d8b;
+
+.contact-container {
+    background-color: #607d8b;
 }
-.contact{
+
+.contact {
     width: 900px;
     margin: 0px auto;
     padding: 25px 0px;
 }
-.contact h1{
+
+.contact h1 {
     text-align: center;
     padding: 20px 0px;
     font-size: 3.5em;
 }
-.contact p{
+
+.contact p {
     padding: 10px 0px;
     font-size: 2em;
     color: white;
 }
-.contact span{
+
+.contact span {
     background-color: black;
     color: white;
     padding: 5px 5px;
 }
-#contact-heading{
+
+#contact-heading {
     padding: 25px 0px;
     color: white;
     font-size: 2.5em;
 }
-input{
+
+input {
     width: 100%;
     box-sizing: border-box;
     padding: 12px 15px;
@@ -97,18 +116,26 @@ input{
     margin: 10px 0px;
     border: 1px solid black;
 }
-input:focus{
+
+input:focus {
     outline: none;
 }
-#contact-btn{
+
+#contact-btn {
     width: 100%;
     padding: 12px 15px;
     text-align: center;
     border: none;
+    cursor: pointer;
     font-size: 1.5em;
     margin: 10px 0px;
 }
-footer{
+
+#contact-btn:hover {
+    background-color: #ddd;
+}
+
+footer {
     width: 100%;
     padding: 60px 0px;
     text-align: center;

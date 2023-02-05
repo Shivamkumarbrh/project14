@@ -9,6 +9,12 @@
         font-size: 1.8em;
         box-sizing: border-box;
     }
+    .menu-list button {
+        font-size: 1.6em;
+    }
+    .menu-content{
+        border: none;
+    }
     .about,#about-second,.open-close-hours,.contact{
         width: 95%;
     
@@ -27,4 +33,8 @@
     .navbar{
         display: none;
     }
+    .menu-list button {
+        font-size: 1.2em;
+    }
+    
 }
